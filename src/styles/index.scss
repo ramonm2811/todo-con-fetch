@@ -1,6 +1,64 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+
+h1{
+    font-size: 60px;
+
+}
+.titulo{
+    text-align: center;
+    position: relative;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+.input1{
+    width: 350px;
+    border:2px solid #EBEBEB;
+    font-size: larger;
+}
+.tareas{
+    border:2px solid #EBEBEB;
+    width: 350px;
+}
+p{
+    width: 50%;
+    text-align: left;
+    padding-left: 10px;
+    font-size: larger;
+    background: white;
+    width: inherit;
+    margin: 5px;
+    font-weight: bold;
+}
+p::first-letter{
+    text-transform: uppercase;
+}
+li  {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none; 
+    color:#A3A3A3;
+}
+button{
+    background: none; 
+    border: none;
+    color: rgb(241, 107, 107);
+    display:block;
+}
+
+
+ul{
+    padding: 0;
+}
+.contadordetareas{
+    padding-left: 10px;
+    border:2px solid #EBEBEB;
+    width: 350px;
+}
+.notask{
+    padding-left: 10px;
+}
+/*  
 
     You can write your own styles here...
     
